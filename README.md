@@ -12,7 +12,7 @@ You will be able to:
 * Recall the difference between bias and variance
 * Practice identifying bias and variance in model performance
 * Practice applying strategies to minimize bias and variance
-* Practice selecting a final model and evaluating it on a holdout set
+* Practice selecting a final model and evaluating it on a holdout set.
 
 ## Your Task: Build a Model to Predict Blood Pressure
 
@@ -55,7 +55,7 @@ Using the `LinearRegression` model and `mean_squared_error` function from scikit
 
 Apply a `PolynomialFeatures` transformer to give the model more ability to pick up on information from the training data. Test out different polynomial degrees until you have a model that is perfectly fit to the training data.
 
-#### 4. Use Regularization to Reduce Overfitting
+#### 4. Use Regularization to Reduce Overfitting.
 
 Instead of a basic `LinearRegression`, use a `Ridge` regression model to apply regularization to the overfit model. In order to do this you will need to scale the data. Test out different regularization penalties to find the best model.
 
@@ -104,7 +104,7 @@ In the cell below, assign `X` to be the features and `y` to be the target. Remem
 
 
 ```python
-# Replace None with appropriate code
+# Replace None with appropriate code.
 
 X = None
 y = None
@@ -125,7 +125,7 @@ assert X.shape == (224, 5)
 assert y.shape == (224,)
 ```
 
-### Performing Train-Test Split
+### Performing Train-Test Split.
 
 In the cell below, import `train_test_split` from scikit-learn ([documentation here](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)).
 
